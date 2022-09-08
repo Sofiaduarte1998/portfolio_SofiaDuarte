@@ -1,0 +1,122 @@
+
+.portfolio {
+  position: relative;
+}
+.portfolio .box {
+  border-radius: 10px;
+  position: relative;
+}
+
+.portfolio .box:hover {
+  background: none;
+  transform: translateY(-0);
+}
+
+
+.portfolio img {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.portfolio .category span {
+  color: #878e99;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.portfolio .link {
+  position: absolute;
+  right: 30px;
+  bottom: 11%;
+  transform: rotate(-45deg);
+  color: #878e99;
+  opacity: 0;
+  transition: 0.5s;
+}
+.portfolio .title:hover .link {
+  opacity: 1;
+}
+
+.portfolio h2 {
+  font-size: 18px;
+  transition: 0.5s;
+  padding-bottom: 30px;
+  color:#E0C04D;
+}
+
+
+.portfolio h2:hover {
+  color: white;
+}
+
+
+/*------------box--------*/
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 9999;
+}
+
+.modal-img{
+  width: 100;
+  height: 100;
+}
+ .overlay {
+  background-color: #b1b5ba;
+}
+
+
+.modal-content {
+  position: absolute;
+  top: 12%;
+  left: 8%;
+  line-height: 1.4;
+  background: #f0f3f5;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 85%;
+  min-width: 60%;
+  z-index: 9999;
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+
+ .modal-text h1 {
+  margin: 20px 0 20px 0;
+  font-size: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+  .modal,
+  .overlay {
+    overflow: scroll;
+  }
+
+  .modal .modal-img {
+    margin: 50px 0 50px 0;
+  }
+  .modal-content {
+    flex-direction: column;
+  }
+  .modal .right,
+  .modal .left {
+    padding: 0;
+  }
+}

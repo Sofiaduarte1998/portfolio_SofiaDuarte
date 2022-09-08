@@ -1,0 +1,43 @@
+
+.footer {
+    position: relative;
+}
+
+.footer .box {
+    border-radius: 5px;
+    position: relative;
+}
+
+
+
+
+
+.footer .now {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.footer .ft {
+    height: 50px;
+    width: 80%;
+    float: left;
+    margin: 30px;
+    display: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

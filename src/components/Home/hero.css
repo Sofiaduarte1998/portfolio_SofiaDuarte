@@ -1,0 +1,61 @@
+.hero {
+  position: relative;
+}
+.hero h3 {
+  font-weight: 100;
+  font-size:19px;
+  letter-spacing: 2px;
+  color: white;
+}
+.hero h2 {
+  font-weight: 100;
+  font-size: 37px;
+  letter-spacing: 2px;
+  color: white;
+}
+.hero h2 span {
+  color: #E0C04D;
+}
+.hero h2 span:hover {
+  color: #ab49cc;
+}
+
+.hero h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color:white;
+}
+
+
+.hero p {
+  color: #878e99;
+  font-size: 19px;
+  
+}
+
+
+
+.hero_btn {
+  padding: 10px 15px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    height: fit-content;
+    background-color: #E0C04D;
+}
+
+.hero_btn:hover {
+  background-color: #ab49cc;
+    color: white;
+}
+canvas {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  transform: rotate(45deg);
+  top: 20px;
+  bottom: 0;
+  left: 1000px;
+  right: 50px;
+}

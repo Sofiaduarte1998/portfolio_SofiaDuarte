@@ -1,0 +1,29 @@
+.about {
+    position: relative;
+}
+
+.about p {
+    color: white;
+    font-size: 19px;
+    max-width: 550px;
+    line-height: 28px;
+        margin-bottom: 45px;
+}
+
+ .top {
+     padding: 30px;
+ }
+
+
+ .about img{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+ }
+
+ .about .perfil_img{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+
+ }

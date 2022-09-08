@@ -1,0 +1,45 @@
+.skills {
+    position: relative;
+}
+
+.skills .box {
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.skills p {
+    color: white;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+
+.skills .details{
+        width: 100%;
+        height:100%;
+        display: flex;
+        justify-content: space-between;
+        
+    
+}
+
+.skills .size{
+    height: 50px;
+        width: 80%;
+        float: left;
+        margin: 30px;
+       
+        display: center;
+
+}
+
+.skills .html_page{
+    display: center;
+}
+
+.skills .img-s{
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,183 @@
+/*  <div className="right box_shodow"><form onSubmit= {
+   formSubmit
+ }
+
+ ><div className="f_flex"><div className="input row"> */
+.Contact .left {
+  width: 36%;
+}
+
+.Contact .box {
+  padding: 30px;
+}
+
+
+ .details p {
+  font-size: 17px;
+  color: white;
+}
+
+
+ .right {
+   width: 60%;
+   padding: 20px;
+ }
+ .input span {
+  color: white;
+  font-size: 13px;
+}
+
+
+.input {
+  margin-top: 10px;
+  border: 2px;
+  display: inline-block;
+  
+}
+
+ .btn_from {
+  width: 20%;
+  padding: 20px;
+  border-radius: 30px;
+  background-color:#E0C04D;
+}
+
+.right button{
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .Contact .d_flex {
+    flex-direction: column;
+  }
+
+  .Contact .left,
+  .Contact .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+.contact {
+  position: relative;
+}
+
+.contact h1 {
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #E0C04D;
+}
+
+.contact h1:hover {
+  color: #ab49cc;
+}
+
+ 
+ .details p {
+  font-size: 17px;
+  color: white;
+}
+ .box {
+  padding: 30px;
+}
+
+
+.f_flex{
+
+}
+
+
+.Contact .right {
+  width: 60%;
+}
+
+ .input span {
+  font-size: 13px;
+  color: white;
+}
+
+.Contact input {
+  margin-top: 10px;
+  border: 2px;
+}
+
+.Contact .right button {
+  width: 100%;
+  color: #ff014f;
+}
+
+.Contact .right button:hover {
+  color: white;
+}
+
+.Contact .right button i {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .Contact .d_flex {
+    flex-direction: column;
+  }
+
+  .Contact .left,
+  .Contact .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+
+
+
+*/
+/*
+
+
+
+
+codigo 0
+
+.Contact .input span {
+  font-size: 13px;
+}
+.Contact input {
+  margin-top: 10px;
+}
+.Contact .right button {
+  width: 100%;
+  color: #ff014f;
+}
+.Contact .right button:hover {
+  color: white;
+}
+.Contact .right button i {
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .Contact .d_flex {
+    flex-direction: column;
+  }
+  .Contact .left,
+  .Contact .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+*/
