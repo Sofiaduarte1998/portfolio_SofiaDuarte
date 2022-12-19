@@ -1,21 +1,18 @@
 
 .footer {
-    position: relative;
-}
-
-.footer .box {
-    border-radius: 5px;
-    position: relative;
+    position: absolute;
 }
 
 
 
 
+
+/*
 
 .footer .now {
     width: 100%;
     height: 100%;
-    display: flex;
+    display: center;
     justify-content: space-between;
 
 
@@ -30,8 +27,33 @@
 
 }
 
+*/
+ .details {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
 
 
+}
+
+.size {
+    height: 50px;
+    width: 80%;
+    float: left;
+    margin: 30px;
+padding: 10px;
+   
+
+}
+
+ .foter-a{
+    display: center;
+}
+ .img-f {
+    height: 100px;
+    width: 100px;
+}
 
 
 

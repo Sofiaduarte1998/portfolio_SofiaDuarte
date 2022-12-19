@@ -16,14 +16,14 @@ const Card = (props) => {
     <>
       <div className="box btn_shadow ">
         <div className="img">
-          <img src={props.image} alt="" onClick={toggleModal} />
+          <img src={props.image} alt="" />
         </div>
         <div className="category d_flex">
           <span onClick={toggleModal}>{props.category}</span>
         </div>
         <div className="title">
           <h2 onClick={toggleModal}>{props.title}</h2>
-          <a href="#poi" className="link" onClick={toggleModal}>
+          <a href="#poi" className="href">
             {props.link}
           </a>
         </div>

@@ -19,6 +19,7 @@ const Portfolio = () => {
                   image={value.image}
                   category={value.category}
                   title={value.title}
+
                   /* href*/
                 />
               );
